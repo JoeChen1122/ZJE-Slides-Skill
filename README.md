@@ -12,7 +12,7 @@
 
 ```text
 Fetch and follow instructions from:
-https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
+https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/asset/INSTALL.md
 ```
 ### 必要配置
 由于本项目涉及图像处理模块，所使用的 API 必须具备图像识别、图像理解或图像处理能力，例如 GPT 系列多模态模型、Kimi 视觉模型等。纯文本模型无法准确解析或处理图像内容，可能导致图像匹配错误、随机插入图片或生成结果与实际图像内容不符等问题。
