@@ -13,6 +13,9 @@
 ```text
 Fetch and follow instructions from:
 https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
+
+**### 必要的配置**
+由于涉及图像处理模块，请务必提供具有图像处理能力的API，比如Kimi-2.6
 ```
 
 ### 快速开始
@@ -61,7 +64,7 @@ https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
 
 ### 仓库内容
 
-- `SKILL.md`：技能的权威说明，包含触发条件、工作流、边界与交付要求
+- `SKILL.md`：技能的说明，包含触发条件、工作流、边界与交付要求
 - `INSTALL.md`：安装入口与环境检查说明
 - `LICENSE`：本仓库当前发布版本附带的许可文件
 - `README.md`：面向公开发布的中英双语介绍与使用说明
