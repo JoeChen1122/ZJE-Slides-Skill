@@ -5,7 +5,8 @@
 
 
 在summarize-slides基础上为ZJE学生适配的课件总结skill，根据生物医学专业知识点的特点设计了总结格式，并加入了对图片的筛选排版功能。帮助你更快的复习！
-
+示例如下
+<img src="assets/实例文件.jpg" alt="神经科学原理笔记" width="500" />
 ### 安装
 
 复制给 OpenCode / Claude Code / 其他支持 skills 的 LLM agent：
