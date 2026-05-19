@@ -9,6 +9,8 @@
 示例如下
 
 <img src="assets/实例文件.png" alt="神经科学原理笔记" width="500" />
+
+
 ### 安装
 
 复制给 OpenCode / Claude Code / 其他支持 skills 的 LLM agent：
