@@ -57,10 +57,10 @@ https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
 
 ### 与 `pdf` skill 的关系
 
-- `summarize-slides` 必须与 `pdf` 配合使用
+- `ZJE-slides` 必须与 `pdf` 配合使用
 - `pdf` 负责 PDF 读取、提取、OCR 与页面内容确认等输入侧工作
-- `summarize-slides` 负责全局通读、按讲次或主题分段、合并总结、覆盖性核查、写出 LaTeX，并在本地 LaTeX 环境可用时尝试编译最终 PDF
-- 简单说：`pdf` 负责把课件读清楚，`summarize-slides` 负责把复习文档做完整
+- `ZJE-slides` 负责全局通读、按讲次或主题分段、合并总结、覆盖性核查、写出 LaTeX，并在本地 LaTeX 环境可用时尝试编译最终 PDF
+- 简单说：`pdf` 负责把课件读清楚，`ZJE-slides` 负责把复习文档做完整
 
 ### 仓库内容
 
