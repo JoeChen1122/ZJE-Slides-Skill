@@ -8,7 +8,7 @@
 
 示例如下
 
-<img src="assets/实例文件.png" alt="神经科学原理笔记" width="500" />
+<img src="https://github.com/JoeChen1122/ZJE-Slides-Skill/blob/asset/%E5%AE%9E%E4%BE%8B%E6%96%87%E4%BB%B6.png" alt="神经科学原理笔记" width="500" />
 
 
 ### 安装
