@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
 1. 让 Agent 按 `INSTALL.md` 完成安装与环境检查：
 
 ```text
-https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
+https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/asset/INSTALL.md
 ```
 
 2. 在会话中粘贴课件地址，直接描述需求即可，例如：
