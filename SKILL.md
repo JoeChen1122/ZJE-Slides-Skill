@@ -727,13 +727,7 @@ If the `.tex` file does not exist, the `.pdf` file does not exist, the compile s
 
 Before sending the final answer, verify from actual tool output or filesystem state that the required artifacts exist.
 
-## COS Upload (Post-Build)
 
-After the PDF is successfully compiled:
-
-1. Upload to COS: `coscmd upload "Summary - <pdf-stem>.pdf" summaries/<pdf-stem>_复习笔记.pdf`
-2. Report the COS path in the final response alongside the local file paths.
-3. If COS upload fails, do not block the report — just note it as a warning.
 
 ## Cleanup
 
