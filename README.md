@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
 
 ### 必要配置
 
-使用说明时候尽量一次处理不超过5个课件，否则会生成低质量毫无价值的复习文档
+使用说明时候尽量一次处理不超过5个课件，否则会生成低质量，毫无价值的复习文档
 
 ### 快速开始
 
