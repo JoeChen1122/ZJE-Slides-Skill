@@ -6,17 +6,26 @@
 
 在summarize-slides基础上为ZJE学生适配的课件总结skill，根据生物医学专业知识点的特点设计了总结格式，并加入了对图片的筛选排版功能。帮助你更快的复习！
 
-### 安装
+示例如下
 
-复制给 OpenCode / Claude Code / 其他支持 skills 的 LLM agent：
+<img src="https://github.com/JoeChen1122/ZJE-Slides-Skill/blob/asset/%E5%AE%9E%E4%BE%8B%E6%96%87%E4%BB%B6.png" alt="神经科学原理笔记" width="500" />
+
+
+### 快速安装
+
+请把下面文字复制给 OpenCode / Claude Code / 其他支持 skills 的 LLM agent：
 
 ```text
 Fetch and follow instructions from:
-https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/asset/INSTALL.md
+https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/main/INSTALL.md
 ```
 ### 必要配置
+
 由于本项目涉及图像处理模块，所使用的 API 必须具备图像识别、图像理解或图像处理能力，例如 GPT 系列多模态模型、Kimi 视觉模型等。纯文本模型无法准确解析或处理图像内容，可能导致图像匹配错误、随机插入图片或生成结果与实际图像内容不符等问题。
 
+### 必要配置
+
+使用说明时候尽量一次处理不超过5个课件，否则会生成低质量毫无价值的复习文档
 
 ### 快速开始
 
@@ -35,7 +44,7 @@ https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/asset/INSTALL.md
 3. 也可以自然说明范围与风格，例如：
 
 ```text
-只总结第 3 讲到第 5 讲，中文为主，保留英文术语，做成公式和概念速查表。
+总结第 3 讲到第 5 讲，中文为主，保留英文术语，做成公式和概念速查表。
 ```
 
 ### 默认输入输出
@@ -57,10 +66,10 @@ https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/asset/INSTALL.md
 
 ### 与 `pdf` skill 的关系
 
-- `ZJE-slides` 必须与 `pdf` 配合使用
+- `summarize-slides` 必须与 `pdf` 配合使用
 - `pdf` 负责 PDF 读取、提取、OCR 与页面内容确认等输入侧工作
-- `ZJE-slides` 负责全局通读、按讲次或主题分段、合并总结、覆盖性核查、写出 LaTeX，并在本地 LaTeX 环境可用时尝试编译最终 PDF
-- 简单说：`pdf` 负责把课件读清楚，`ZJE-slides` 负责把复习文档做完整
+- `summarize-slides` 负责全局通读、按讲次或主题分段、合并总结、覆盖性核查、写出 LaTeX，并在本地 LaTeX 环境可用时尝试编译最终 PDF
+- 简单说：`pdf` 负责把课件读清楚，`summarize-slides` 负责把复习文档做完整
 
 ### 仓库内容
 
@@ -76,3 +85,4 @@ https://raw.githubusercontent.com/JoeChen1122/ZJE-Slides-Skill/asset/INSTALL.md
 感谢原作者提供的工作流设计、课件总结规范和实践经验。本 README 在原有 skill 思路基础上，补充了更适合生物医学学生的整理方案。
 
 ---
+
